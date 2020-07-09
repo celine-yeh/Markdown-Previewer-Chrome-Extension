@@ -1,0 +1,18 @@
+.zen-backdrop.div-dropzone-wrapper.fullscreen {
+  width: 50vw;
+}
+
+.preview-fullscreen {
+  display: block !important;
+  position: fixed;
+  width: 50vw;
+  height: 100vh;
+  left: 50vw;
+  top: 0;
+  background-color: white;
+  z-index: 1032;
+}
+
+.show {
+  display: block !important;
+}
