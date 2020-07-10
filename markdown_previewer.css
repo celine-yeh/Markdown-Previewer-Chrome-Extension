@@ -2,8 +2,8 @@
   width: 50vw;
 }
 
-.preview-fullscreen {
-  display: block !important;
+#markdown-previewer {
+  display: block;
   position: fixed;
   width: 50vw;
   height: 100vh;
@@ -11,8 +11,5 @@
   top: 0;
   background-color: white;
   z-index: 1032;
-}
-
-.show {
-  display: block !important;
+  overflow: scroll;
 }
